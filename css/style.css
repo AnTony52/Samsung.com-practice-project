@@ -1,0 +1,300 @@
+* {
+	font-family: sans-serif;
+}
+.header {
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+}
+.logo {
+    display: block;
+    background-image: url(../img/index/samsung_logo_PNG4.png);
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    color: transparent;
+    content: '';
+}
+
+.dropdown-toggle::after {
+    /*display: inline-block;*/
+    display: none;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.support-side {
+	
+}
+/**/
+.slider {
+    width: 100%;
+    height: 510px;
+ }
+.slider img {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.slider .title {
+	position: relative;
+	bottom: 400px;
+    left: 650px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin: 0 !important;
+    display: inline-block;   
+}
+.slider .title a u:hover {
+	color: blue;
+	text-shadow: 0 0 0px blue;
+}
+.dat-ngay {
+	border-radius: 50px;
+	font-size: 14px;
+
+}
+button.dat-ngay:hover {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.videoshow:before {
+    content: '';
+    display: block;
+    position: relative;
+    margin: 40px auto 0px;
+    margin: 2.77778vw auto 0vw;
+    width: 40px;
+    width: 2.77778vw;
+    height: 5px;
+    height: 0.34722vw;
+    background: #000;
+}
+/*hover image effects*/
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+/*text-transform:uppercase;*/
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+margin-top: 10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+/*border:1px solid #fff;*/
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+/*box-shadow:0 0 5px #fff;*/
+text-shadow: 0 0 100px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+/*END hover image effects*/
+
+.galaxy-s9plus img {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.galaxy-s9plus {
+    width: 100%;
+    height: 530px;
+ }
+.galaxy-s9plus .title {
+	position: relative;
+    bottom: 370px;
+    left: 90px;
+    color: black;
+    margin: 0 !important;
+    display: inline-block;
+}
+.qled {
+	background-color: #ececec;
+}
+.qled-img {
+	width: 100%;
+	height: auto;
+}
+.qled-khamphangay {
+	border-radius: 50px;
+}
+.qled-title {
+	padding: 111px 0px 0px 85px;
+}
+
+.addwash-title  {
+	padding:  175px 0 0 105px;
+}
+.addwash-khamphangay {
+	border-radius: 50px;
+}
+.addwash-img {
+	width: 95%;
+	height: auto;
+}
+.uudai {
+	background-color: #f1f1f1;
+}
+.uudai-img {
+	width: 95%;
+	height: auto;
+}
+.uudai-title {
+    padding: 92px 44px 0 122px;
+}
+.uudai-title p {
+    font-size: 1.2rem;
+}
+.uudai-khamphangay {
+	border-radius: 50px;
+}
+
+.a8-star-img {
+	width: 95%;
+	height: auto;
+}
+.a8-star-title  {
+    padding: 134px 0 0 72px;
+}
+.a8-star-title p {
+	font-size: 1.2rem;
+}
+.btn.btn-outline-dark.px-4.py-2.uudai-khamphangay {
+ font-size: 0.9rem;
+}
+.btn.btn-outline-dark.px-4.py-2.uudai-khamphangay:hover {
+ font-weight: 900;
+}
+.inspire-the-future {
+	background-color: #e8e8e8;
+}
+.inspire-the-future-img {
+	width: 95%;
+}
+.inspire-the-future-title {
+    padding: 73px 0 0 58px;
+}
+.inspire-the-future-title h1 {
+    padding: 0px 87px 0 0px;
+}
+/**/
+ul li {
+	list-style-type: none;
+	font-size: 14px;
+    line-height: 2;
+}
+.copyright {
+	font-size: 13px;
+}
+.sm {
+	font-size: 10px;
+}
+.footer1 {
+	background-color: #f7f7f7;
+}
+.connect-with-us i {
+	font-size: 40px;
+	color: black;
+}
+.fb:hover {
+	color: blue;
+}
+.yt:hover {
+	color: red;
+}
+.ins:hover {
+	color: purple; 
+}
+.footer2 {
+	background-color: #363636;
+}
+.sub-info-last li {
+    font-size: 11px;
+    font-weight: normal;
+    color: #a6a6a6;
+    line-height: 1.75;
+    word-break: break-word;
+}

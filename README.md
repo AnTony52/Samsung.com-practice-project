@@ -4,5 +4,5 @@
 <p>3.Sau đó yên tâm sử dụng và chỉnh sửa. </p> 
 <img src="instruction1.png" width=200 height=200/>
 <p>-Trong folder /plugins có folder bootstrap-4.1.0</p>
-<img src"instruction2.png" width=200 height=200/>
+<img src="instruction2.png" />
 Có gì cứ contact Tuấn.
